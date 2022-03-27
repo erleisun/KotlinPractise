@@ -11,10 +11,6 @@ fun main() {
     val len2 = "ESun".count{
         it == 'S'
     }
-
-
-
-
 }
 
 
