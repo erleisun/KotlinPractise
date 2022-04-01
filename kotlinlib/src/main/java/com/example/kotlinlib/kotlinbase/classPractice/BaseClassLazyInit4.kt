@@ -5,6 +5,8 @@ package com.example.kotlinlib.kotlinbase.classPractice
  */
 class BaseClassLazyInit4(_name: String) {
 
+    init {
+    }
     //var p: String = getResponse() //调用主构造函数时即会初始化p  并调用函数执行，没有延迟初始化
     val p: String by lazy { getResponse() } //延迟加载 只有使用到P时 才会调用函数执行
 
